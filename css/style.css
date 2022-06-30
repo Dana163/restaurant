@@ -6,13 +6,40 @@ li{
 
 .menu{
    padding: 0;
+   display: table;
+   margin: 0 auto;
+   
 }
 
 body{
     background-image: url('../imgs/manger.jpg');
     background-repeat: no-repeat;
+
 }
 
 h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: aquamarine;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+footer{
     color: white;
 }
