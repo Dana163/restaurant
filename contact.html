@@ -20,33 +20,35 @@
           </div>
          </nav>
         </header>
+        <h1>Chez Youssouf</h1>
+        <h3 id="description">Je vous invite à me contacter si vous souhaitez avoir plus d'information ou pour passer une commande.</h3>
+        <hr>
     <div width="50%">
 		<form class="tab_presentation">
 			<fieldset>
 				<legend>Vos informations</legend>
 					<table>
 				<tr>
-					<td><strong>Nom</strong></td>
+					<td class="nom"><strong>Nom</strong></td>
 					<td>
-                        <input type="text" name="first"/></td>
-                    <td> <strong>Prénom</strong> </td>
+                        <input class="input_nom" type="text" name="first"/></td>
+                    <td class="prenom"> <strong>Prénom</strong> </td>
                     <td>
-                        <input type="text" name="last"/>
+                        <input class="input_prenom" type="text" name="last"/>
                     </td>
                 </tr>
 			    <tr>
-					<td><strong>Votre email</strong></td>
+					<td class="email"><strong>Votre email</strong></td>
 					<td>
-                        <input type="text" name="email">
+                        <input class="input_email" type="text" name="email">
                     </td>
 				</tr>
 				<tr>
-                    <td><strong>Votre message :</strong></td>
+                    <td class="message"><strong>Votre message :</strong></td>
                     <td>
-						<div>
-							<input type="text"/>
-						</div>
+						<input type="textarea" class="input_message" name="write" style="height: 200px;"/>
 					</td>
+                    
                 </tr>
 				
 				

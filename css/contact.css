@@ -37,6 +37,39 @@ legend{
 
 }
 
-hr{
+h1{
     color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+#description{
+    color: aliceblue;
+}
+
+.nom{
+    height: 50px;
+}
+
+.prenom{
+    height: 50px;
+}
+
+.email{
+    height: 50px;
+}
+
+.message{
+    height: 50px;
+}
+
+
+table{
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+.input_message{
+    text-align: start;
 }
