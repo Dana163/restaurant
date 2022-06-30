@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/contact.js" language="javascript"> </script>
+    <link rel="stylesheet" href="css/contact.css">
+    <title>Restaurant</title>
+</head>
+<body>
+    <header>
+        <nav id="navigation"> 
+          <div class="menu_header"></div>
+            <ul class="menu">
+               <li><a href="index.html">Accueil</a></li> 
+               <li><a href="contact.html">Contact</a></li> 
+               <li><a href="propos.html">A propos de</a></li>  
+            </ul>
+          </div>
+         </nav>
+        </header>
+    <div width="50%">
+		<form class="tab_presentation">
+			<fieldset>
+				<legend>Etat civil</legend>
+					<table>
+				<tr>
+					<td> Nom </td>
+					<td><input type="text" name="first"/></td>
+				</tr>
+				
+				<tr>
+					<td> Prénom </td>
+					<td><input type="text" name="last"/></td>
+				</tr>
+				
+				<tr>
+					<td> Sexe </td>
+					<td>
+						<div>
+							<input type="radio" name="genre" value="1" id="1"/> Homme 
+						</div>
+						<div>
+							<input type="radio" name="genre" checked="choisi" value="2" id="2"/> Femme 
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td> Date de naissance </td>
+					<td><input type="date" name="naissance" /></td>
+				</tr>
+				
+				
+				</table>
+			</fieldset>
+			
+			<fieldset>
+				<legend> Informations personnelles diverses </legend>
+					<table>
+							<tr>
+								<td rowspan=5> Thèmes favoris </td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"/> Cinéma </td>
+								<td><input type="checkbox"/> Sport </td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"/> Bourse </td>
+								<td><input type="checkbox"/> Musique </td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"/> Informatique </td>
+								<td><input type="checkbox"/> Jeux </td>
+							</tr>
+							<tr>
+								<td><input type="checkbox"/> Littérature </td>
+								<td><input type="checkbox"/> Voyages </td>
+							</tr>
+							<tr>
+								<td> Moyens de transport </td>
+								<td>
+									<select name="transport[]" id="id_transport" multiple="multiple" size="3">
+										<input type="text" name="first"/>
+									</select></td>
+							</tr>
+						
+					</table>
+			</fieldset>
+		</form>
+		</div>
+
+        </form>
+    </div>
+
+</body>
+</html>

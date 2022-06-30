@@ -1,0 +1,25 @@
+#contact{
+    width: 75%;
+    background-color: beige;
+}
+
+body{
+    background-image: url('../imgs/manger.jpg');
+    background-repeat: no-repeat;
+
+}
+
+li{
+    display: inline-block; 
+    margin-right: 10px;
+    color: #778899;
+    list-style:none;
+    cursor:pointer;
+}
+
+.menu{
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+ }
