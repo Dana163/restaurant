@@ -23,3 +23,11 @@ li{
     margin: 0 auto;
     font-family: 'Courier New', Courier, monospace;
  }
+
+ #description{
+    color: aliceblue;
+}
+
+h2{
+    color: white;
+}
