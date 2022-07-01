@@ -1,0 +1,25 @@
+body{
+    background-image: url('../imgs/manger.jpg');
+    background-repeat: no-repeat;
+
+}
+
+h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+
+li{
+    display: inline-block; 
+    margin-right: 10px;
+    color: #778899;
+    list-style:none;
+    cursor:pointer;
+}
+
+.menu{
+    padding: 0;
+    display: table;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
+ }
